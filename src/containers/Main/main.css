@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.w-100 {
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+.list__button {
+  width: 100%;
+  height: 35px;
+  background-color: inherit;
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+.list__button:hover {
+  cursor: pointer;
+}
